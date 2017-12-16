@@ -22,13 +22,17 @@ The 'phantomjs_user_screenshot.sh' script will loop over that dir of user script
 Note: No paths should end with a forward slash
 
 'phantomjs_user_screenshot.sh' has a few varibules at the top:
-```phantomjsFile="/path/to/phantomjs/bin/phantomjs"
+```javascript
+phantomjsFile="/path/to/phantomjs/bin/phantomjs"
 cookieFile="/path/to/cookies.txt"
-jsUserScriptsPath="/path/to/profile_scripts"```
+jsUserScriptsPath="/path/to/profile_scripts"
+```
 
 'ScreenShotWorker.js' has two...
-```var imgScreenShotDir = '/path/to/save/screenshots'; // full path, must NOT end with forward slash
-``var imgLimit = 5; // number of screenshot images to keep```
+```javascript
+var imgScreenShotDir = '/path/to/save/screenshots'; // full path, must NOT end with forward slash
+var imgLimit = 5; // number of screenshot images to keep
+```
 
 ### Your profile(s) scripts.
 Each site you want to create a screenshot from needs to have its own profile script. The profile script holds cookie information, so you need to know how to look up/find/view information in your browsers cookie. [google, view browsers cookies](https://www.google.com/search?q=view+your+cookies+in+different+browsers).
