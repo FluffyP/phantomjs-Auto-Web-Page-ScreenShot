@@ -47,6 +47,8 @@ Your profile scripts, the '*phantomjs_user_screenshot.sh*' script and '*ScreenSh
 
 Note at the bottom of the profile-file-scripts, there are two lines of code which call/import/injected the '*ScreenShotWorker.js*' script, so you can not rename the '*ScreenShotWorker.js*' file unless you make the appropriate changes to the profile-script.
 
-
+```javascript
+var filename = './ScreenShotWorker.js';
+injected = phantom.injectJs(filename);```
 
 
