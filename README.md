@@ -23,15 +23,13 @@ Note: No paths should end with a forward slash
 
 'phantomjs_user_screenshot.sh' has a few varibules at the top:
 
-``
-phantomjsFile="/path/to/phantomjs/bin/phantomjs"``
+``phantomjsFile="/path/to/phantomjs/bin/phantomjs"``
 ``cookieFile="/path/to/cookies.txt"``
 ``jsUserScriptsPath="/path/to/profile_scripts"``
 
 'ScreenShotWorker.js' has two...
 
-``
-var imgScreenShotDir = '/path/to/save/screenshots'; // full path, must NOT end with forward slash``
+``var imgScreenShotDir = '/path/to/save/screenshots'; // full path, must NOT end with forward slash``
 ``var imgLimit = 5; // number of screenshot images to keep``
 
 ### Your profile(s) scripts.
