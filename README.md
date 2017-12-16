@@ -49,6 +49,7 @@ Note at the bottom of the profile-file-scripts, there are two lines of code whic
 
 ```javascript
 var filename = './ScreenShotWorker.js';
-injected = phantom.injectJs(filename);```
+injected = phantom.injectJs(filename);
+```
 
 
