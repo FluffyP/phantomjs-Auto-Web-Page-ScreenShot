@@ -22,12 +22,14 @@ The 'phantomjs_user_screenshot.sh' script will loop over that dir of user script
 Note: No paths should end with a forward slash
 
 'phantomjs_user_screenshot.sh' has a few varibules at the top:
-``phantomjsFile="/path/to/phantomjs/bin/phantomjs"
+``
+phantomjsFile="/path/to/phantomjs/bin/phantomjs"
 cookieFile="/path/to/cookies.txt"
 jsUserScriptsPath="/path/to/profile_scripts"``
 
 'ScreenShotWorker.js' has two...
-``var imgScreenShotDir = '/path/to/save/screenshots'; // full path, must NOT end with forward slash
+``
+var imgScreenShotDir = '/path/to/save/screenshots'; // full path, must NOT end with forward slash
 var imgLimit = 5; // number of screenshot images to keep``
 
 ### Your profile(s) scripts.
@@ -41,7 +43,7 @@ You can use 'profile.example.js' for a template.
 ### Where the scripts go:
 Your profile scripts, the 'phantomjs_user_screenshot.sh' script and 'ScreenShotWorker.js' script all should be in the same dir, your screenshots should be saved to another dir.
 
-Note at the bottom of the profile-file-scripts, there are two lines of code which call/import/injected the 'ScreenShotWorker.js' script, so you can not rename the 'ScreenShotWorker.js' file unless you make the appropriate chanes to the profile-script.
+Note at the bottom of the profile-file-scripts, there are two lines of code which call/import/injected the 'ScreenShotWorker.js' script, so you can not rename the 'ScreenShotWorker.js' file unless you make the appropriate changes to the profile-script.
 
 
 
