@@ -33,8 +33,13 @@ Note: No paths should end with a forward slash
 ### Your profile(s) scripts.
 Each site you want to create a screenshot from needs to have its own profile script. The profile script holds cookie information, so you need to know how to look up/find/view information in your browsers cookie. [google, view browsers cookies](https://www.google.com/search?q=view+your+cookies+in+different+browsers).
 
+Most sites (which i belong to) use two or three cookies: session, uid and pass for loging in, but this is something which you will have to figure out yourself.
+
+You can use 'profile.example.js' for a template.
+
+
 ### Where the scripts go:
-Your profile scripts, the 'phantomjs_user_screenshot.sh' script and 'ScreenShotWorker.js' script all should have in thesame dir, your screenshots should be saved to another dir.
+Your profile scripts, the 'phantomjs_user_screenshot.sh' script and 'ScreenShotWorker.js' script all should be in the same dir, your screenshots should be saved to another dir.
 
 
 
