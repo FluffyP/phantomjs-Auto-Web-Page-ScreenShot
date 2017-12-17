@@ -11,9 +11,9 @@ PhantomJS is a headless WebKit scriptable with a JavaScript API. It has fast and
 ## Why and what...
 There are acouple sites i belong to which keep stats of my membership. From time to time i like to have a screenshot of my user account on these sites. Rather then visting these sites with my browser once a week, taking a screen shot then saving to a folder, i created the scripts you will find here.
 
-Once a week i run the bash script '*phantomjs_user_screenshot.sh*' as a cron job. The '*phantomjs_user_screenshot.sh*' in-turn will trigger [phantomjs](http://phantomjs.org/) to run the JavaScript files, automaticly log into my user accounts, take a screenshot and save it to a folder of my choice.
+Once a week i run the bash script '*phantomjs_user_screenshot.sh*' as a cron job. The '*phantomjs_user_screenshot.sh*' script will in-turn trigger [phantomjs](http://phantomjs.org/) to run the JavaScript files, automaticly log into my user accounts, take a screenshot and save it to a folder of choice.
 
-## How it works...
+### How it works...
 There is a 'profile_scripts' dir. This folder holds all your profile scripts: google.example.js, yahoo.example.js, etc.
 
 The '*phantomjs_user_screenshot.sh*' script will loop over that dir of user scripts and send them to the 'phantomjs' program so it can work its magic and then save the screenshot to a dir of your choice and also delete any screenshot images that exceed your image limit (deleteing oldest image).
@@ -24,7 +24,7 @@ Note: No paths should end with a forward slash
 '*phantomjs_user_screenshot.sh*' has a few varibules at the top:
 ```javascript
 phantomjsFile="/path/to/phantomjs/bin/phantomjs" # PATH to save phantomjs executable
-cookieFile="/path/to/cookies.txt" # PATH to save phantomjs's cookie file
+cookieFile="/path/to/cookies.txt" # PATH to save phantomjs cookie file
 jsUserScriptsPath="/path/to/profile_scripts" # PATH to dir of your userscripts
 ```
 
