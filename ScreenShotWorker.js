@@ -1,6 +1,6 @@
 // Config, edit to your needs...
 var imgScreenShotDir = '/home/me/screens'; // full path, must NOT end with forward slash
-var imgLimit = 5;
+var imgLimit = 5; // number of screenshot images to keep
 
 
 // Config end: No need to edit below this...

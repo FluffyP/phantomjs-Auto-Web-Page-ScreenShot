@@ -1,9 +1,9 @@
 var urlIS = 'https://website.com/user.php?id=12345';
 
 phantom.addCookie({
-    'name':     'session',   /* required property */
-    'value':    '1234abcd',  /* required property */
-    'domain':   'website.com',           /* required property */
+    'name':     'session',   
+    'value':    '1234abcd',  
+    'domain':   'website.com',           
     'path':     '/',
     'httponly': true,
     'secure':   false,
@@ -11,9 +11,9 @@ phantom.addCookie({
 });
 
 phantom.addCookie({
-    'name':     'uid',   /* required property */
-    'value':    '123',  /* required property */
-    'domain':   'website.com',           /* required property */
+    'name':     'uid',   
+    'value':    '123',  
+    'domain':   'website.com',           
     'path':     '/',
     'httponly': true,
     'secure':   false,
@@ -21,9 +21,9 @@ phantom.addCookie({
 });
 
 phantom.addCookie({
-    'name':     'pass',   /* required property */
-    'value':    'abc',  /* required property */
-    'domain':   'website.com',           /* required property */
+    'name':     'pass',   
+    'value':    'abc',  
+    'domain':   'website.com',           
     'path':     '/',
     'httponly': true,
     'secure':   false,
