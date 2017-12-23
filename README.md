@@ -23,9 +23,9 @@ Note: No paths should end with a forward slash
 
 '*phantomjs_user_screenshot.sh*' has a few varibules at the top:
 ```javascript
-phantomjsFile="/path/to/phantomjs/bin/phantomjs" # PATH to save phantomjs executable
+phantomjsFile="/path/to/phantomjs/bin/phantomjs" # PATH to phantomjs executable
 cookieFile="/path/to/cookies.txt" # PATH to save phantomjs cookie file
-jsUserScriptsPath="/path/to/profile_scripts" # PATH to dir of your userscripts
+jsUserScriptsPath="/path/to/profile_scripts" # PATH to dir of your users/profile_scripts
 ```
 
 '*ScreenShotWorker.js*' has two...
